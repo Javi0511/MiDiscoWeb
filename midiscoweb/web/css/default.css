@@ -1,0 +1,289 @@
+
+	@font-face {
+    font-family: caviar;
+    src:url(../fuentes/CaviarDreams.ttf);
+	}
+	@font-face {
+    font-family: rounded;
+    src:url(../fuentes/Rounded_Elegance.ttf);
+	}
+	body {
+	  font-family: caviar;
+	}
+	
+	#container {
+	  margin: 0 auto;
+	  width: 300px;
+	  background:#fff;
+	  border: solid 1px;
+	}
+	
+	#header {
+	  background: linear-gradient(45deg, #36e083, white);
+	  text-align: center;
+	  padding: 20px;
+	  color: white;
+	  text-shadow: black 0.1em 0.1em 0.2em;
+	}
+	
+	#header h1 {
+	  font-size: 25px;
+	  margin: 0;
+	}
+	#titulodet{
+		font-size: 20px;
+	}
+	#header img {
+		width:36px;
+		height:36px;
+	}
+	
+	#content {
+	  font-family:rounded;
+	  background: white;
+	  text-align:center;
+	  clear: left;
+	  padding: 20px;
+	}
+	
+	#content h2 {
+	  color:#000;
+	  font-size: 160%;
+	  margin: 0 0 .5em;
+	}
+	
+	#aviso {
+		background: white;
+		color: red;
+		
+	}
+	
+	li {
+	  padding: 18px;
+	}
+	
+	#aviso {
+		background: red;
+		color: black;
+		text-align:center;
+	}
+	
+	a {
+	  color:black;
+	  
+	}
+	textarea {
+	   resize: none;
+	}
+	
+	table, th, td {
+	  border: 1px solid black;
+	  border-collapse:collapse;
+	  padding: 4px;
+	}
+	
+	#footer {
+	  color: white;
+	  background: blue;
+	  text-align: center;
+	  padding: 20px;
+	  margin: 0px;
+	  height: 1%;
+	}
+	#boton{
+		display:inline-block;
+		background:#a2faf3;
+		border-radius:15px;
+		width:120px;
+		height:30px;
+		
+	}
+	#botoncrear{
+		display:inline-block;
+		background:#a2faa5;
+		border-radius:15px;
+		width:120px;
+		height:30px;
+		
+	}
+	#botoncerrar{
+		display:inline-block;
+		background:#f77c7c;
+		border-radius:15px;
+		width:120px;
+		height:30px;
+		
+	}
+	#tablaacceso, #tablaacceso td{
+		border:none;
+		margin:0 auto;
+		text-align:left;
+	}
+	#verusuarios{
+		margin:0 auto;
+	}
+	#nombreuser{
+	background:black;
+	color:white;
+	text-decoration:underline;
+	}
+	#datos:nth-child(even) {
+		background:#d9dbff;
+	}
+	
+	#tablamodif, #tablamodif td{
+		text-align:left;
+		border:none;
+		margin:0 auto;
+	}
+	#tabladet{
+		text-align:left;
+		margin:0 auto;
+	}
+	td img:hover{
+	filter: invert(50%);
+	}
+
+
+
+@media all and (min-width:769px){
+
+	body {
+	  font-family: caviar;
+	}
+	
+	#container {
+	  margin: 0 auto;
+	  width: 650px;
+	  background:#fff;
+	  border: solid 1px;
+	}
+	
+	#header {
+	  background: linear-gradient(45deg, #36e083, white);
+	  text-align: center;
+	  padding: 20px;
+	  color: white;
+	  text-shadow: black 0.1em 0.1em 0.2em;
+	}
+	
+	#header h1 {
+	  font-size: 40px;
+	  margin: 0;
+	}
+	#titulodet{
+		font-size: 30px;
+	}
+	
+	#header img {
+		width:64px;
+		height:64px;
+	}
+	
+	#content {
+	font-family:rounded;
+	  background: white;
+	  text-align:center;
+	  clear: left;
+	  padding: 20px;
+	}
+		
+	#aviso {
+		background: white;
+		color: red;
+		
+	}
+	
+	li {
+	  padding: 18px;
+	}
+	
+	#aviso {
+		background: red;
+		color: black;
+		text-align:center;
+	}
+	
+	a {
+	  color: #429;
+	  text-decoration: none;
+	}
+	textarea {
+	   resize: none;
+	}
+	
+	table, th, td {
+	  border: 1px solid black;
+	  border-collapse:collapse;
+	  padding: 4px;
+	}
+	
+	#footer {
+	  color: white;
+	  background: blue;
+	  text-align: center;
+	  padding: 20px;
+	  margin: 0px;
+	  height: 1%;
+	}
+	#boton{
+		display:inline-block;
+		background:#a2faf3;
+		border-radius:15px;
+		width:120px;
+		height:30px;
+		
+	}
+	#botoncrear{
+		display:inline-block;
+		background:#a2faa5;
+		border-radius:15px;
+		width:120px;
+		height:30px;
+		
+	}
+	#botoncerrar{
+		display:inline-block;
+		background:#f77c7c;
+		border-radius:15px;
+		width:120px;
+		height:30px;
+		
+	}
+	#tablaacceso, #tablaacceso td{
+		border:none;
+		margin:0 auto;
+		text-align:left;
+	}
+	#verusuarios{
+		margin:0 auto;
+	}
+	#nombreuser{
+	background:black;
+	color:white;
+	text-decoration:underline;
+	}
+	#datos:nth-child(even) {
+		background:#d9dbff;
+	}
+	#tablamodif, #tablamodif td{
+		text-align:left;
+		border:none;
+		margin:0 auto;
+	}
+	#tabladet{
+		text-align:left;	
+		margin:0 auto;
+	}
+	td img:hover{
+	filter: invert(50%);
+	}
+}
+
+
+
+
+
+
+
+
