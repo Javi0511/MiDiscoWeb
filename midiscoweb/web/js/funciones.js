@@ -2,10 +2,28 @@
  * Funciones auxiliares de javascripts 
  */
 function confirmarBorrar(nombre,id){
+	
   if (confirm("¿Quieres eliminar el usuario:  "+nombre+"?"))
   {
    document.location.href="?orden=Borrar&id="+id;
   }
+}
+
+function confirmarBorrarFile(file){
+	
+	  if (confirm("¿Quieres eliminar el archivo:  "+file+"?"))
+	  {
+	   document.location.href="?orden=BorrarFichero&id="+file;
+	  }
+	}
+
+function confirmarRenombrarFile(file){
+	var nuevoNombre = prompt("Introduce el nuevo nombre:");
+	if(nuevoNombre!=null || nuevoNombre!=""){
+		document.location.href="?orden=Renombrar&id="+file+"&nombre="+nuevoNombre;
+	}
+
+	
 }
 
 var x;
